@@ -120,9 +120,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 3hrs | - | - | 
+| Working with API | H | 3hrs| - | - |
+| Writing the base HTML | H | 2hrs |   -  |   -  | 
+| Writing the base CSS | H | 2hrs |   -   |  -   |
+| Writing base javascript| H | 3hrs |   -  |   -   | 
+| Set up Links | H | 1.5hrs | - | - |
+| Creating API functions | H | 3hrs |  -   |   -   |
+| Create For Loops | H | 3hrs | - | - | 
+| Adding results to Drop Down | H | 3hrs | - | - |
+| Making the DOM appends | H | 2hrs | -  |  -   | 
+| Making CSS responsive | H | 2hrs |  -   |    -    |
+| Adding new Design features | M | 3hrs |  -  |  -  |
+| Polish Design | M | 3hrs |  -  |  -  |
+| Debugging | H | 3hrs | - | - | 
+| Testing | H | 3hrs | - | - |
+| Total | H | 39.5hrs| - | - |
 
 ## Code Snippet
 
