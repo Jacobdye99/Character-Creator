@@ -2,6 +2,7 @@
 
 ## Project Name
 
+
 The name of your project.
 
 ## Project Description
@@ -11,8 +12,8 @@ My project will be an application that will create a random character for your n
 ## API and Data Sample
 
 Dnd5eapi https://www.dnd5eapi.co/api/      Snippet = 
- 
- ``{
+ ```
+ {
  
  "count": 9,
     "results": [
@@ -63,6 +64,7 @@ Dnd5eapi https://www.dnd5eapi.co/api/      Snippet =
         }
     ]
 }
+```
 
 ## Wireframes
 
