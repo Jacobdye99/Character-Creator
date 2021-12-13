@@ -79,18 +79,21 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
--api accessibility 
--create a random generator for traits
--link to D&D Beyond character creator so you can make it official
--create drop downs that allow you to customize your random character with specific traits
+- api accessibility 
+
+- create a random generator for traits
+
+- link to D&D Beyond character creator so you can make it official
+
+- create drop downs that allow you to customize your random character with specific traits
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
--make a save feature so that users can save their favorite creations
+- make a save feature so that users can save their favorite creations
 - Find and add an art api for characters
--add a character sheet that inputs the data from the generator
--add extra traits and a selector for specific numbers
+- add a character sheet that inputs the data from the generator
+- add extra traits and a selector for specific numbers
 
 ## Project Schedule
 
