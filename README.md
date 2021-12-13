@@ -2,8 +2,8 @@
 
 ## Project Name
 
+Character Creator
 
-The name of your project.
 
 ## Project Description
 
