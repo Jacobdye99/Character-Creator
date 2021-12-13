@@ -6,15 +6,69 @@ The name of your project.
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My project will be an application that will create a random character for your next D&D campaign. Giving you the characters race, class, background, and alignment 
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+Dnd5eapi https://www.dnd5eapi.co/api/      Snippet = 
+ 
+ {
+ 
+ "count": 9,
+    "results": [
+        {
+            "index": "dragonborn",
+            "name": "Dragonborn",
+            "url": "/api/races/dragonborn"
+        },
+        {
+            "index": "dwarf",
+            "name": "Dwarf",
+            "url": "/api/races/dwarf"
+        },
+        {
+            "index": "elf",
+            "name": "Elf",
+            "url": "/api/races/elf"
+        },
+        {
+            "index": "gnome",
+            "name": "Gnome",
+            "url": "/api/races/gnome"
+        },
+        {
+            "index": "half-elf",
+            "name": "Half-Elf",
+            "url": "/api/races/half-elf"
+        },
+        {
+            "index": "half-orc",
+            "name": "Half-Orc",
+            "url": "/api/races/half-orc"
+        },
+        {
+            "index": "halfling",
+            "name": "Halfling",
+            "url": "/api/races/halfling"
+        },
+        {
+            "index": "human",
+            "name": "Human",
+            "url": "/api/races/human"
+        },
+        {
+            "index": "tiefling",
+            "name": "Tiefling",
+            "url": "/api/races/tiefling"
+        }
+    ]
+}
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
+
+https://raw.githubusercontent.com/Jacobdye99/placeholder-p1/main/assets/Project%201.png       Desc: basic build of the main page with input drop downs and a build character button. also includes a box to display the information. Subject to change
 
 ### MVP/PostMVP
 
@@ -23,15 +77,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+-api accessibility 
+-create a random generator for traits
+-link to D&D Beyond character creator so you can make it official
+-create drop downs that allow you to customize your random character with specific traits
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+-make a save feature so that users can save their favorite creations
+- Find and add an art api for characters
+-add a character sheet that inputs the data from the generator
+-add extra traits and a selector for specific numbers
 
 ## Project Schedule
 
@@ -41,7 +98,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | complete
 |Dec 13| Project Approval | Incomplete
 |Dec 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Dec 14| Pseudocode / actual code | Incomplete
@@ -52,6 +109,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Priority Matrix
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+
+https://raw.githubusercontent.com/Jacobdye99/placeholder-p1/main/assets/20211213072744.jpg 
 
 ## Timeframes
 
