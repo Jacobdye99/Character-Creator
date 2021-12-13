@@ -71,7 +71,7 @@ Dnd5eapi https://www.dnd5eapi.co/api/      Snippet =
 
 
 - ![Basic Webpage Wireframe](https://raw.githubusercontent.com/Jacobdye99/placeholder-p1/main/assets/Project%201.png)_
--  ![Phone: Phone Wireframe](https://raw.githubusercontent.com/Jacobdye99/Character-Creator/main/assets/Project%201%20-%20Phone%20X.png)    
+-  ![Phone: Phone Wireframe](https://raw.githubusercontent.com/Jacobdye99/Character-Creator/main/assets/Project%201%20-%20Phone%20X%20(1).png)    
    
 -  Desc: basic build of the main page with input drop downs and a build character button. also includes a box to display the information. Subject to change
 
