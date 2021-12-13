@@ -70,7 +70,7 @@ Dnd5eapi https://www.dnd5eapi.co/api/      Snippet =
 
 
 
-https://raw.githubusercontent.com/Jacobdye99/placeholder-p1/main/assets/Project%201.png   Phone: https://raw.githubusercontent.com/Jacobdye99/Character-Creator/main/assets/Project%201%20-%20Phone%20X.png     Desc: basic build of the main page with input drop downs and a build character button. also includes a box to display the information. Subject to change
+![Basic Webpage Wireframe] (https://raw.githubusercontent.com/Jacobdye99/placeholder-p1/main/assets/Project%201.png)_   Phone: ![Phone Wireframe] (https://raw.githubusercontent.com/Jacobdye99/Character-Creator/main/assets/Project%201%20-%20Phone%20X.png)     Desc: basic build of the main page with input drop downs and a build character button. also includes a box to display the information. Subject to change
 
 ### MVP/PostMVP
 
@@ -115,7 +115,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
-https://raw.githubusercontent.com/Jacobdye99/placeholder-p1/main/assets/20211213072744.jpg 
+![Priority Matrix] (https://raw.githubusercontent.com/Jacobdye99/placeholder-p1/main/assets/20211213072744.jpg) 
 
 ## Timeframes
 
