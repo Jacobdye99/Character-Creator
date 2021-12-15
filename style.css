@@ -46,3 +46,26 @@ body {
     text-decoration: solid;
     font-family: 'Courier New', Courier, monospace;
 }
+#random {
+    background-color: crimson;
+    border-style: solid;
+    border-color: black;
+    padding: 15px 50px 15px 50px;
+    text-decoration: solid;
+    font-family: 'Courier New', Courier, monospace;
+}
+.character {
+    position: relative;
+    margin: 25px;
+    display: inline-block;
+    border-style: solid;
+    padding: auto;
+    border-width: 2px;
+    width: auto;
+    background-color: black;
+    justify-self: center;
+    align-self: center;
+    height: auto;
+    
+
+}

@@ -4,69 +4,65 @@ const classSelector = document.querySelector("#class")
 const backgroundSelector = document.querySelector("#background")
 const alignmentSelector = document.querySelector("#alignment")
 
-async function fetchRace(race) {
+async function fetchRace() {
     try {
-    const url = `https://www.dnd5eapi.co/api/races/${race}`;
+        // const race = raceSelector.value
+    const url = `https://www.dnd5eapi.co/api/races/`;
     const res = await axios.get(url);
-    console.log(res.data.name);
-    // const races = Object.keys(res.data.results);
+    console.log(res.data.results);
+    const races = Object.keys(res.data.results).forEach((name) => {
+        console.log(res.data)
+
+    });
     
     // setRaceValues(races);
 } catch(error) {
  console.error(error)
 }
 }
-fetchRace("tiefling");
+fetchRace("Dragonborn");
 
-// function setRaceValues(races) {
-//     races.forEach(race => {
-//         let option = document.createElement('option');
-//         option.value = race;
-//         option.textContent = race;
-//         // raceSelector.appendChild(option)
-//         console.log(raceSelector)
-//     })
+
+// async function fetchClass(clas) {
+//     try {
+//     const url = `https://www.dnd5eapi.co/api/classes/${clas}`;
+//     const res = await axios.get(url);
+//     console.log(res.data.name);
+//     const classes = Object.keys(res.data.name)
+
+//     setClassValues(classes)
+// } catch(error) {
+//     console.error(error)
 // }
-async function fetchClass(clas) {
-    try {
-    const url = `https://www.dnd5eapi.co/api/classes/${clas}`;
-    const res = await axios.get(url);
-    console.log(res.data.name);
-    // const classes = Object.keys(res.data.results)
 
-    // setClassValues(classes)
-} catch(error) {
-    console.error(error)
-}
-
-}
-fetchClass('barbarian');
+// }
+// fetchClass('barbarian');
 
 // function setClassValues(classes) {
-//     classes.forEach(class => { 
-//         let option2 = document.createElement('option');
-//         option.value = class;
-//         option.textContent = class;
-//         classSelector.appendChild(option)
+//     classes.forEach(clas => { 
+//         let option = document.createElement('option');
+//         option.value = clas;
+//         option.textContent = clas;
+//         classSelector.appendChild(option);
 
 
 //     })
 // }
 
-async function fetchBackground() {
-    const url = `https://www.dnd5eapi.co/api/backgrounds`;
-    const res = await axios.get(url);
-    console.log(res.data.results);
-    const backgrounds = Object.keys(res.data.results)
+// async function fetchBackground(background) {
+//     const url = `https://api.open5e.com/backgrounds/${background}`;
+//     const res = await axios.get(url);
+//     console.log(res.data.name);
+//     // const backgrounds = Object.keys(res.data.results)
     
-}
-fetchBackground();
+// }
+// fetchBackground("acolyte");
 
-async function fetchAlignment() {
-    const url = `https://www.dnd5eapi.co/api/alignments`;
-    const res = await axios.get(url);
-    console.log(res.data.results);
-    const alignments = Object.keys(res.data.results)
+// async function fetchAlignment(alignment) {
+//     const url = `https://www.dnd5eapi.co/api/alignments/${alignment}`;
+//     const res = await axios.get(url);
+//     console.log(res.data.name);
+//     // const alignments = Object.keys(res.data.results)
     
-}
-fetchAlignment();
+// }
+// fetchAlignment("chaotic-good");
