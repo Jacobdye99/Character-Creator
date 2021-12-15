@@ -7,36 +7,36 @@ const alignmentSelector = document.querySelector("#alignment")
 async function fetchRace() {
     try {
         // const race = raceSelector.value
-    const url = `https://www.dnd5eapi.co/api/races/`;
+    const url = `https://www.dnd5eapi.co/api/races`;
     const res = await axios.get(url);
-    console.log(res.data.results);
-    const races = Object.keys(res.data.results).forEach((name) => {
-        console.log(res.data)
+    for (let i = 0; i <= 8; i++) {
+    console.log(res.data.results[i].name);
+    }
+    // const races = Object.keys(res.data.results)
 
-    });
+    // });
     
     // setRaceValues(races);
 } catch(error) {
  console.error(error)
 }
 }
-fetchRace("Dragonborn");
+fetchRace();
 
 
-// async function fetchClass(clas) {
-//     try {
-//     const url = `https://www.dnd5eapi.co/api/classes/${clas}`;
-//     const res = await axios.get(url);
-//     console.log(res.data.name);
-//     const classes = Object.keys(res.data.name)
+async function fetchClass() {
+    try {
+    const url = `https://www.dnd5eapi.co/api/classes`;
+    const res = await axios.get(url);
+    for (let i = 0; i <= 11; i++) {
+        console.log(res.data.results[i].name)
+    }
+}catch (error) {
+    console.error(error)
+}
 
-//     setClassValues(classes)
-// } catch(error) {
-//     console.error(error)
-// }
-
-// }
-// fetchClass('barbarian');
+}
+fetchClass();
 
 // function setClassValues(classes) {
 //     classes.forEach(clas => { 
@@ -49,20 +49,43 @@ fetchRace("Dragonborn");
 //     })
 // }
 
-// async function fetchBackground(background) {
-//     const url = `https://api.open5e.com/backgrounds/${background}`;
-//     const res = await axios.get(url);
-//     console.log(res.data.name);
-//     // const backgrounds = Object.keys(res.data.results)
+async function fetchBackground() {
+    const url = `https://api.open5e.com/backgrounds`;
+    const res = await axios.get(url);
+    // console.log(res.data.name);
+    for (i = 0; i <= 2; i++) {
+        console.log(res.data.results[i].name)
+    }
+    // const backgrounds = Object.keys(res.data.results)
     
-// }
-// fetchBackground("acolyte");
+}
+fetchBackground();
 
-// async function fetchAlignment(alignment) {
-//     const url = `https://www.dnd5eapi.co/api/alignments/${alignment}`;
-//     const res = await axios.get(url);
-//     console.log(res.data.name);
-//     // const alignments = Object.keys(res.data.results)
+async function fetchAlignment() {
+    const url = `https://www.dnd5eapi.co/api/alignments`;
+    const res = await axios.get(url);
+    // console.log(res.data.name);
+    for (i = 0; i < 9; i++) {
+        // console.log(res.data.results[i].name)
+        const alignments = (res.data.results[i].name)
+        console.log(alignments)
+        
+        
+        
+        setAlignmentValues(alignments)
+    }
     
-// }
-// fetchAlignment("chaotic-good");
+    // const alignments = Object.keys(res.data.results)
+    
+}
+fetchAlignment();
+
+
+function setAlignmentValues(alignments) {
+alignments.forEach(alignment => {
+let option = document.createElement('option');
+option.value = alignment;
+option.textContent = alignment;
+alignmentSelector.appendChild(option);
+})
+}
