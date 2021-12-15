@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "./style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./assets.js"></script>
     <title>Document</title>
 </head>
@@ -18,12 +19,13 @@
     </header>
     
     <main>
+        <form class = "Clicks">
         <div class = "dropdowns">
 
-            <select id = "race" ></select>
-            <select id = "class" for = "Class"></select>
-            <select id = "background" for = "Background"></select>
-            <select id = "alignment" for = "Alignment"></select>
+            <select id = "race" ><option hidden selected = "false" default>Race</option></select>
+            <select id = "class" for = "Class"><option hidden selected = "false" default>Class</option></select>
+            <select id = "background" for = "Background"><option hidden selected = "false" default>Background</option></select>
+            <select id = "alignment" for = "Alignment"><option hidden selected = "false" default>Alignment</option></select>
 
         </div>
         <div class = "button">
@@ -31,7 +33,7 @@
                 Create your character
             </button>
         </div>
-
+</form>
 
         <div>
             <!-- <h4> Create Your Character on Dnd Beyond now </h4> -->
