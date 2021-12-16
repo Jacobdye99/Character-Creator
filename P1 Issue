@@ -1,0 +1,23 @@
+---
+name: P1 Issue
+about: Fill this out for issue help
+title: 'Javascript troubles'
+labels: ''
+assignees: ''
+
+---
+
+**Describe the bug**
+A clear and concise description of what the bug is.
+
+- I'm struggling with making my event listeners and buttons do what I want I need it to be able to randomize a character and input the information in the dropdowns into the randomizer as well as the standard character create
+
+**Error Message**
+Add any other context about the problem here.
+
+- 
+
+**2 Links you found while researching the bug**
+
+1. https://cs50.stackexchange.com/questions/18790/how-to-link-submit-button-with-the-select-list-in-html
+2. https://stackoverflow.com/questions/38067905/how-to-link-a-html-select-list-with-a-submit-button
