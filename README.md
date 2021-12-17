@@ -145,6 +145,12 @@ Dnd5eapi https://www.dnd5eapi.co/api/      Snippet =
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
+This code determines which traits need to be randomized or not, it took me a while to figure it out but I was able to do it without using google 
+
+
+
+
+
 ```
 function randomChar(i) {
     removeRace();
